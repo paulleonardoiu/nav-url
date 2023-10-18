@@ -110,10 +110,10 @@ nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 10vh;
+  font-size: 9vh;
   font-weight: bolder;
   color: #fff;
-  -webkit-text-stroke: 3px black;
+  -webkit-text-stroke: 2px black;
 }
 .site-container .homePage .welcome {
   padding: 20px 0;
@@ -153,6 +153,9 @@ nav a {
   width: 100%;
   min-height: 100px;
   padding-bottom: 20px;
+}
+.site-container .homePage .howTo .title h1 {
+  text-align: center;
 }
 .site-container .homePage .howTo .image a {
   max-width: 200px;
@@ -229,10 +232,10 @@ nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 10vh;
+  font-size: 9vh;
   font-weight: bolder;
   color: #fff;
-  -webkit-text-stroke: 3px black;
+  -webkit-text-stroke: 2px black;
 }
 .site-container .aboutPage .installSteps {
   display: -webkit-box;
@@ -323,10 +326,10 @@ nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 10vh;
+  font-size: 9vh;
   font-weight: bolder;
   color: #fff;
-  -webkit-text-stroke: 3px black;
+  -webkit-text-stroke: 2px black;
 }
 .site-container .productsPage .tools {
   padding: 20px 0;
@@ -412,10 +415,10 @@ nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 10vh;
+  font-size: 9vh;
   font-weight: bolder;
   color: #fff;
-  -webkit-text-stroke: 3px black;
+  -webkit-text-stroke: 2px black;
 }
 .site-container .contactPage .contact {
   width: 100%;
