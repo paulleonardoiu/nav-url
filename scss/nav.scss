@@ -1,0 +1,23 @@
+nav{
+
+    min-height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a{
+    // Mobile 320px
+    @media only screen and (max-width: 320px){
+        padding: 0 1%;
+    }
+    text-decoration: none;
+    color: #000;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1%;
+    font-weight: bold;
+}

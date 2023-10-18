@@ -1,0 +1,22 @@
+@mixin hero($background-size){
+    background-image: url('../images/IU_Campus_Banner_IUPUI.png');
+    background-size: $background-size;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin title(){
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+    font-weight: bolder;
+    color: #fff;
+    -webkit-text-stroke: 3px black;
+}

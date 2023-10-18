@@ -1,0 +1,92 @@
+.site-container{
+    @media only screen and (max-width: 400px){
+        .contactPage{
+            .hero{
+                @include hero(cover);
+            }
+        }
+    }
+    @media only screen and (min-width: 400px){
+        .contactPage{
+            .hero{
+                @include hero(contain);
+            }
+        }
+    }
+    .contactPage{
+        .hero{
+            .title{
+                @include title();
+            }
+        }
+        .contact{
+            width: 100%;
+            // background-color: red;
+            height: 100%;
+            padding: 60px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // gap: 40px;
+            .contactBox{
+                flex-wrap: wrap;
+                display: flex;
+                // background-color: #991b1e;
+                .info{
+                    text-align: center;
+                    margin: 0 auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    // color: #fff;
+                    // padding: 40px;
+                    font-weight: bolder;
+                    width: 200px;
+                    p{
+                        margin-bottom: 16px;
+                    }
+                }
+                form{
+                    margin: 0 auto;
+
+                    // background-color: #991b1e;
+                    // color: #fff;
+                    h1{
+                        text-align: center;
+                    }
+                    // padding: 40px;
+    
+                    // gap: 16px;
+                    // margin: 0 auto;
+                    width: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    label{
+                        // padding: 0 10px;
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                    input{
+                        padding: 5px 10px;
+                        margin-bottom: 16px;
+                        font-size: 16px;
+                    }
+                    textarea{
+                        padding: 5px 10px;
+                        margin-bottom: 16px;
+                        font-size: 16px;
+    
+                    }
+                    button{
+                        border: none;
+                        padding: 10px 0;
+                        background-color: #991b1e;
+                        font-weight: bold;
+                        font-size: 16px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
